@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titulo de l pagina</title>
+</head>
+<body>
+<h1>Administrador de Terrenos</h1>
+{% for terreno in terrenos_list %}
+        {{terreno.name}} - {{terreno.medidas}}<br>
+{% endfor %}
+</body>
+</html>
